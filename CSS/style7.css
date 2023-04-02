@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .container {
+    width: 100%;
+    padding: auto;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    align-items: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+  }
+
+  .comment-box {
+    width: 50%;
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+    font-family: 'poppins', sans-serif;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-top: 80px;
+    box-shadow: 0px 0px 10px 1px rgb(165, 165, 165);
+  }
+
+  .comment-form input,
+  .comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 18px;
+    font-family: 'poppins', sans-serif;
+    border: 1px solid #ddd;
+    color: #777;
+  }
+
+  .comment-form button {
+    margin: 10px 0;
+    border: none;
+    background-color: #d0d0d0;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 3px;
+    color: #444;
+  }
+
+  button:hover {
+    color: white;
+    background-color: #964b00;
+  }
+
+  @media(max-width: 900px) {
+    .comment-box {
+      width: 80%;
+      margin: 5%;
+    }
+  }
+
+
+  .comment-box p {
+    color: #964b00;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: #964;
+  }
+
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .navbar a:hover,
+  .dropdown:hover .dropbtn {
+    background-color: black;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content li {
+    list-style: none;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td,
+  th {
+    border: 1px solid #964b00;
+    text-align: left;
+    padding: 8px;
+  }
+
+  td {
+    color: white;
+  }
+
+  th {
+    color: #964b00;
+  }
